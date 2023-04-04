@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1743446841395291085}
   - component: {fileID: 8863758139705352530}
   m_Layer: 0
-  m_Name: Cascade
+  m_Name: Waterfall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
