@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         DontDestroyOnLoad(this);
-        PlayerCreation();
+       // PlayerCreation();
         FindAllEnemies();
 
         if (playerObject != null)
@@ -54,12 +54,12 @@ public class GameManager : MonoBehaviour
         EnemyList.AddRange(GameObject.FindGameObjectsWithTag("Enemy"));
     }
 
-    private void PlayerCreation()
+   /* private void PlayerCreation()
     {
         player = new Entity.Player();
         player.SetGeneralValues();
         player.position = playerObject.transform.position;
-    }
+    }*/
 
     public Vector3 DetectPlayer(Transform enemyTransform, float enemyRange)
     {
